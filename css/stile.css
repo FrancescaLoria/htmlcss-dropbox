@@ -60,11 +60,12 @@
 
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col{
     /* debug */
-    height: 600px;
+    height: 300px;
     /* /debug */
     background-color: red;
     border: 1px solid black;
@@ -92,6 +93,11 @@
     width: 40%;
     background-color: lightseagreen;
 }
+/* /section second */ 
+
+
+
+
 
 
 /* /MAIN */
