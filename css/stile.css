@@ -36,7 +36,7 @@
 /* /HEADER */
 
 /* MAIN */
-.container-main{
+.container{
     width: 70%;
     margin: 0 auto;
 
@@ -159,9 +159,41 @@
 .eight{
     background-color: #FFD830;
 }
+/* <!-- /section sixth --> */
 
+/* <!-- section seventh --> */
+/* debag */
+.section-seventh{
+    background-color: #B4D0E7;
+}
+/* <!-- /section seventh --> */
 
+/* <!-- section eighth --> */
+.list{
+    /* debug */
+    height: 350px;
+    background-color: brown;
+    margin-top: 20px;
+    /* <!-- /section eighth --> */
+}
 /* /MAIN */
 
 /* FOOTER */
+.footer{
+    background-color: black;
+    height: 500px;
+}
+
+.cont-list{
+     padding-top: 50px;
+}
+
+.col-footer{
+    /* debug */
+    height: 350px;
+    width: calc( 100% / 5);
+    border: 1px solid white;
+}
+
+
 /* /FOOTER */
