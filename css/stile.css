@@ -95,9 +95,70 @@
 }
 /* /section second */ 
 
+/* section fifth  */
+.drowbox-business{
+    /* debug */
+    height: 200px;
+    background-color: lightskyblue;
+    /* /debug */
+    margin-top: 20px;
+
+}
+
+/* <!-- section sixth --> */
+.boxs{
+    width: 100%;
+    margin-top: 20px;
+}
 
 
+.box{
+    /* debug */
+    height: 300px;
+    width: calc(100% / 3);
+}
 
+.logo{
+    height: 150px;
+    width: calc( 100% / 2);
+}
+
+.one{
+    background-color: #A2D39B;
+}
+
+.two{
+    background-color: #61082B;
+}
+
+.three{
+    background-color: #0093CE;
+}
+
+.four{
+    background-color: #FF1C1C;
+}
+
+.center{
+    background-color: #F5F5F5;
+}
+
+.five{
+    background-color: #D5001F;
+}
+
+.six{
+    background-color: #B4D0E7;
+
+}
+
+.seven{
+    background-color: #0D2481;
+}
+
+.eight{
+    background-color: #FFD830;
+}
 
 
 /* /MAIN */
