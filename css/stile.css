@@ -9,9 +9,71 @@
 /* LAYOUT */
 
 /* HEADER */
+
+/* nav */
+.navbar{
+    /* debug */
+    height: 80px;
+    background-color: orange;
+    /* /debug */
+}
+/* /nav */
+
+/* jambotron */
+.jambotron{
+    background-color: #B4D0E7;
+    /* debug */
+    height: 450px;
+}
+.container-jumbotron{
+    /* debug */
+    height: 450px;
+    border: 2px solid black;
+    /* /debug */
+    width: 70%;
+    margin: 0 auto;
+}
 /* /HEADER */
 
 /* MAIN */
+.container-main{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+/* section first */
+.title{
+    /* debug */
+    height: 50px;
+    background-color: blueviolet;
+    /* /debug */
+    margin-top: 50px;
+}
+
+.checkbox{
+    /* debug */
+    height: 50px;
+    background-color: yellow;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.col{
+    /* debug */
+    height: 600px;
+    /* /debug */
+    background-color: red;
+    border: 1px solid black;
+    width: calc( 100% / 3);
+}
+/* /section first */
+
+/* section second */
+
 /* /MAIN */
 
 /* FOOTER */
