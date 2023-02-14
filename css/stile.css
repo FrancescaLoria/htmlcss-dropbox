@@ -145,7 +145,7 @@ a{
 
 
 .checkbox{
-    padding-top: 20px;
+    padding: 20px 0;
     
 }
 
@@ -281,6 +281,24 @@ a{
     color: black;
     border: 1px solid black;
     display: inline-block;
+}
+/* /section thrird */
+
+/* section fourth */
+.card{
+    padding: 20px;
+}
+
+.dropnoxbusiness-title{
+    padding-bottom: 20px;
+}
+
+.dropnoxbusiness-subtitle{
+    padding: 20px 0;
+}
+
+.second-col .col{
+    border: unset;
 }
 
 /* section fifth  */
