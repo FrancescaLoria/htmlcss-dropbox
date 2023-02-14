@@ -10,6 +10,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 ul{
     list-style-type: none;
 }
@@ -19,10 +23,24 @@ a{
     text-decoration: none;
 }
 
+/* UTILITY */
 .btn{
     background-color: #0061FF;
     padding: 7px 15px;
     color: white;
+}
+
+.main-texts{
+    font-size: 12px;
+}
+
+.list-col{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col li{
+    padding-bottom: 10px;
 }
 
 
@@ -64,55 +82,138 @@ a{
 .jambotron{
     background-color: #B4D0E7;
     /* debug */
-    height: 450px;
+    height: 500px;
     padding-top: 50px;
 }
 .container-jumbotron{
     /* debug */
-    height: 350px;
-    border: 2px solid black;
+    /* height: 350px;
+    border: 2px solid black; */
     /* /debug */
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
+
+.title-header{
+    font-size: 50px;
+}
+
+.container-header{
+    padding-top: 25px;
+}
+
+.header-text{
+    width: 40%;
+}
+
+.header-img{
+    width: 60%;
+    
+}
+
+.par-jambo{
+    padding-bottom: 50px;
+}
+
+.jambotron .btn{
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.arrow-jambo{
+    font-size: 30px;
+}
+
 /* /HEADER */
 
 /* MAIN */
 .container{
-    width: 70%;
+    width: 55%;
     margin: 0 auto;
 
 }
 
 /* section first */
 .title{
-    /* debug */
-    height: 50px;
-    background-color: blueviolet;
-    /* /debug */
-    margin-top: 30px;
+    
+    padding-top: 50px;
 }
 
 .checkbox{
-    /* debug */
-    height: 50px;
-    background-color: yellow;
+    padding-top: 20px;
     
 }
 
+.section-first .check{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
 }
 
+
 .col{
     /* debug */
-    height: 300px;
+    height: 600px;
     /* /debug */
-    background-color: red;
+    /* background-color: red; */
     border: 1px solid black;
     width: calc( 100% / 3);
 }
+
+.list-col{
+    margin-top: 20px
+
+}
+
+.col li{
+    margin-bottom: 10px;
+}
+.title-col{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.info-Drop{
+    padding: 20px;
+
+}
+
+.money{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.alternate-link{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #0061FF;
+
+}
+
+.separator{
+    border:1px solid lightslategray;
+    width: 25px;
+    margin-bottom: 20px;
+}
+
+.blue{
+    color: #0061FF;
+}
+
 /* /section first */
 
 /* section second */
