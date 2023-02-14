@@ -28,11 +28,18 @@ a{
     background-color: #0061FF;
     padding: 7px 15px;
     color: white;
+    
 }
 
 .main-texts{
     font-size: 12px;
 }
+
+.section{
+    padding-top: 50px;
+}
+/* UTILITY */
+
 
 .list-col{
     padding-top: 20px;
@@ -134,10 +141,7 @@ a{
 }
 
 /* section first */
-.title{
-    
-    padding-top: 50px;
-}
+
 
 .checkbox{
     padding-top: 20px;
@@ -174,7 +178,7 @@ a{
 }
 .title-col{
     text-align: center;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     padding: 5px;
 }
 
@@ -217,6 +221,8 @@ a{
 /* /section first */
 
 /* section second */
+
+
 .team{
     /* debug */
     height: 200px;
@@ -224,17 +230,30 @@ a{
 
 }
 
+.subtitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .section-left{
-    /* debag */
     width: 60%;
-    background-color: palevioletred;
+    padding: 20px;
+    border: 1px solid black
 }
+    
+
 
 .section-right{
     /* debug */
     width: 40%;
-    background-color: lightseagreen;
+    padding: 20px;
+    border: 1px solid black
+}
+
+.section-right .btn{
+    display: inline-block;
+    margin-left: 80px;
 }
 /* /section second */ 
 
@@ -306,7 +325,7 @@ a{
 
 /* <!-- section seventh --> */
 /* debag */
-.section-seventh{
+.seventh{
     background-color: #B4D0E7;
 }
 /* <!-- /section seventh --> */
