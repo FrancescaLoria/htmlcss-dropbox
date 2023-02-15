@@ -321,11 +321,22 @@ a{
     margin-top: 20px;
 }
 
+.sixth img{
+    filter: invert(1);
+    height: 100%;
+    object-fit: contain;
+    width: 50%;
+}
+
 
 .box{
     /* debug */
     height: 300px;
     width: calc(100% / 3);
+}
+
+.box.flex{
+    text-align: center;
 }
 
 .logo{
@@ -335,6 +346,7 @@ a{
 
 .one{
     background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
 }
 
 .two{
@@ -348,11 +360,28 @@ a{
 .four{
     background-color: #FF1C1C;
 }
-
+/* center */
 .center{
     background-color: #F5F5F5;
+    padding: 25px;
+    overflow: auto;
 }
 
+.box.center img{
+    filter: revert;
+    width: 40%;
+    height: 55px;
+    
+}
+
+.paper{
+    padding: 20px 0;
+}
+
+.lorem{
+    padding-top: 80px;
+}
+/* /center */
 .five{
     background-color: #D5001F;
 }
