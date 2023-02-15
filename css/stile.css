@@ -513,6 +513,7 @@ hr{
 /* FOOTER */
 .footer{
     background-color: black;
+    color: white;
     height: 500px;
     margin-top: 50px;
 }
@@ -524,8 +525,27 @@ hr{
 .col-footer{
     /* debug */
     height: 350px;
-    width: calc( 100% / 5);
-    border: 1px solid white;
+    width: calc( 100% / 5 );
+    
+    
+    
+}
+
+.col-footer li{
+    padding-top: 20px;
+    
+}
+
+.cont-list hr{
+    color: white;
+    
+
+
+}
+
+.text-footer{
+    margin-right:10px;
+    margin-top: 20px;
 }
 
 
