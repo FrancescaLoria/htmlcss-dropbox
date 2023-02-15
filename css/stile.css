@@ -33,6 +33,10 @@ a{
     
 }
 
+.btn:hover{
+    background-color: #0D2481;
+}
+
 .main-texts{
     font-size: 12px;
 }
@@ -330,6 +334,10 @@ a{
     border: 1px solid black;
     display: inline-block;
 }
+
+.partner-text .btn:hover{
+    background-color: lightgray;
+}
 /* /section thrird */
 
 /* section fourth */
@@ -472,6 +480,10 @@ hr{
     right: 0;
     background-color: white;
     color: black;
+}
+
+.seventh .btn:hover{
+    background-color:lightgoldenrodyellow ;
 }
 
 .viola{
