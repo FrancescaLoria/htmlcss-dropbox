@@ -29,6 +29,7 @@ a{
     background-color: #0061FF;
     padding: 7px 15px;
     color: white;
+    display: inline-block;
     
 }
 
@@ -84,6 +85,10 @@ a{
 .button-header{
     margin-right: 1rem;
 }
+
+.nav-right .btn{
+    display: inline;
+}
 /* /nav */
 
 /* jambotron */
@@ -125,7 +130,7 @@ a{
 
 .jambotron .btn{
     margin-bottom: 30px;
-    display: inline-block;
+    
 }
 
 .arrow-jambo{
@@ -256,7 +261,6 @@ a{
 }
 
 .section-right .btn{
-    display: inline-block;
     margin-left: 80px;
 }
 /* /section second */ 
@@ -300,15 +304,13 @@ a{
 .second-col .col{
     border: unset;
 }
+/* /section fourth */
 
 /* section fifth  */
-.drowbox-business{
-    /* debug */
-    height: 200px;
-    background-color: lightskyblue;
-    /* /debug */
-    margin-top: 20px;
 
+.fifth a{
+    text-decoration: underline;
+    color: #0061FF;
 }
 
 /* <!-- section sixth --> */
@@ -371,7 +373,37 @@ a{
 /* debag */
 .seventh{
     background-color: #B4D0E7;
+    height: 300px;
 }
+
+.container-seventh{
+    padding-top: 50px;
+}
+
+.viola-text{
+    width: 50%;
+
+}
+
+.section-button{
+    width: 50%;
+    position: relative;
+}
+
+.seventh .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+}
+
+.viola{
+    color: #610831;
+ }
+
+
+
 /* <!-- /section seventh --> */
 
 /* <!-- section eighth --> */
@@ -379,7 +411,6 @@ a{
     /* debug */
     height: 350px;
     background-color: brown;
-    margin-top: 20px;
     /* <!-- /section eighth --> */
 }
 /* /MAIN */
@@ -388,6 +419,7 @@ a{
 .footer{
     background-color: black;
     height: 500px;
+    margin-top: 50px;
 }
 
 .cont-list{
