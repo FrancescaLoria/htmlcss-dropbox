@@ -63,10 +63,23 @@ a{
     display: flex;
     justify-content: space-between;
     line-height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    
+    
 }
 
 .logo-header{
     margin-left: 1rem;
+    
+}
+
+.logo-header img{
+    vertical-align: middle;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .nav-left,
@@ -95,8 +108,8 @@ a{
 .jambotron{
     background-color: #B4D0E7;
     /* debug */
-    height: 500px;
-    padding-top: 50px;
+    height: 560px;
+    padding-top: 110px;
 }
 .container-jumbotron{
     /* debug */
@@ -154,6 +167,26 @@ a{
     
 }
 
+.check{
+    margin: 0 10px;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border: 4px solid blue;
+    border-radius: 50%;
+}
+
+.circle-two{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+
+}
+
 .section-first .check{
     margin-right: 20px;
     margin-bottom: 20px;
@@ -186,9 +219,14 @@ a{
 .col li{
     margin-bottom: 10px;
 }
+
+.col a{
+    display: block;
+    text-align: center;
+}
 .title-col{
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 5px;
 }
 
@@ -218,11 +256,11 @@ a{
 
 }
 
-.separator{
-    border:1px solid lightslategray;
-    width: 25px;
+.info-Drop hr{
     margin-bottom: 20px;
+    width: 30px;
 }
+    
 
 .blue{
     color: #0061FF;
@@ -231,7 +269,11 @@ a{
 /* /section first */
 
 /* section second */
-
+.second .title-col{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
 
 .team{
     /* debug */
@@ -328,7 +370,10 @@ a{
     width: 50%;
 }
 
-
+hr{
+    width: 40px;
+    margin-top: 20px;
+}
 .box{
     /* debug */
     height: 300px;
